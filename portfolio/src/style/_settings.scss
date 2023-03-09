@@ -1,0 +1,25 @@
+// colors
+$blue:#2BBCFA;
+$green:#B2D802;
+$black:#14172B;
+$white:#FFFFFF;
+$grey:#767DAF;
+
+// functions
+@function calc-em($target-px, $context) {
+  @return ($target-px / $context) * 1em;
+}
+
+// fonts
+@font-face {
+  font-family: "poppinsbold";
+  src: url(../assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "poppinsregular";
+  src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "poppinsmedium";
+  src: url(../assets/fonts/Poppins-Medium.ttf);
+}
