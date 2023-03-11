@@ -2,9 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: calc-em(35,16) 0;
   ul{
     display: flex;
-    gap: 3em;
+    gap: calc-em(60,16);
     align-items: center;
     justify-content: center;
   }
